@@ -16,5 +16,7 @@ Big-O gösterimi için en yüksek dereceli terimi göstermemiz lazım. Onun içi
 > Dizi sıralandıktan sonraki hali [2, 6, 16, 18, 22, 27] olacaktır. 18 sayısı dizinin ortasındaki eleman olduğu için cevap "Average case" olacaktır.
 
 ## [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+### Selection Sort 
+Selection sort algoritması ile sıralanmamış bir listede her iterasyonda en küçük eleman bulunur. İterasyon sonunda belirlenen en küçük eleman listenin başında bulunan eleman ile yer değiştirir. Bir sonraki iterasyona dahil edilmez. İkinci iterasyonda yine array elemanlarından en küçük olanı bulunur ve bu sefer listedeki 2.eleman ile yer değiştirir ve bu şekilde liste sıralanana kadar devam eder.
 > ![](Selection.png)
 > Karşılaştırması yapılan elemana "*" işareti koydum. Soldaki elemanlarla karşılaştırılır ve uygun yere yazılır. Listenin ilk halindeki elemanlar sırasıyla karşılaştırılır.
