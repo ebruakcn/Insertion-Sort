@@ -8,7 +8,7 @@ Insertion Sort yani araya ekleme sıralama algoritması ikinci elemandan başlay
 
 Big-O gösterimi için en yüksek dereceli terimi göstermemiz lazım. Onun için formülden (n^2) geldiği için gösterimi O(n^2) olur.
 
-## Soru 3: Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
+### Soru 3: Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
 
 1.Average case: Aradığımız sayının ortada olması
 2.Worst case: Aradığımız sayının sonda olması
