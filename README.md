@@ -16,3 +16,4 @@ Big-O gösterimi için en yüksek dereceli terimi göstermemiz lazım. Onun içi
 > Dizi sıralandıktan sonraki hali [2, 6, 16, 18, 22, 27] olacaktır. 18 sayısı dizinin ortasındaki eleman olduğu için cevap "Average case" olacaktır.
 
 ## [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+ Karşılaştırması yapılan elemana "*" işareti koydum. Soldaki elemanlarla karşılaştırılır ve uygun yere yazılır. Listenin ilk halindeki elemanlar sırasıyla karşılaştırılır.
