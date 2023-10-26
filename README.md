@@ -3,3 +3,14 @@ Insertion Sort yani araya ekleme sıralama algoritması ikinci elemandan başlay
 ## [22,27,16,2,18,6] -> Insertion Sort
  Soru 1) Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
  ![](Insertion.png)
+Soru 2: Big-O gösterimini yazınız.
+ Eleman sayısı n olduğunda, her eleman için en fazla (n-1) karşılaştırma yapılır. Algoritmanın tüm elemanlarını bu şekilde işlemesi gerektiğinde, toplam karşılaştırma sayısı (n-1) + (n-2) + ... + 1 olur, ki bu toplam (n * (n-1) / 2)'ye eşittir.
+
+Big-O gösterimi için en yüksek dereceli terimi göstermemiz lazım. Onun için formülden (n^2) geldiği için gösterimi O(n^2) olur.
+
+Soru 3: Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız.
+
+1.Average case: Aradığımız sayının ortada olması
+2.Worst case: Aradığımız sayının sonda olması
+3.Best case: Aradığımız sayının dizinin en başında olması.
+Dizi sıralandıktan sonraki hali [2, 6, 16, 18, 22, 27] olacaktır. 18 sayısı dizinin ortasındaki eleman olduğu için cevap "Average case" olacaktır.
